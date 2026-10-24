@@ -31,7 +31,7 @@ async function startServer(){
         });
     }
     catch(err){
-        console.error('error starting server:', err.message);
+        console.error('error starting server:', err);
         process.exitCode = 1;
     }
 }
